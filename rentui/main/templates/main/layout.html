@@ -22,9 +22,13 @@
         <h3 class='logo'>Навигация</h3>
         <ul>
             <a href="{% url "home" %}"> <li><i class="fa-solid fa-house"></i>Главная</li></a>
-            <a href="{% url "about" %}"> <li><i class="fa-solid fa-paper-plane"></i>Про нас</li></a>
+            <a href="{% url "about" %}"> <li><i class="fa-solid fa-address-book"></i>Про нас</li></a>
             <a href="{% url "contacts" %}"> <li><i class="fa-solid fa-paper-plane"></i>Контакты</li></a>
             <a href="{% url "news_home" %}"> <li> <i class="fa-regular fa-newspaper"></i> Новости</li></a>
+            <a href="{% url "admin" %}"> <li><i class="fa-solid fa-circle-user"></i>Кабинет</li></a>
+
+            <a href="{% url "create" %}"> <li><button class="btn btn-info"><i class="fa-solid fa-circle-user">Добавить запись</button></i></li></a>
+
         </ul>
     </aside>
 

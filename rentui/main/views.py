@@ -14,3 +14,6 @@ def about(request):
 
 def contacts(request):
     return render(request, 'main/contacts.html')
+
+def admin(request):
+    return render(request, 'admin')
